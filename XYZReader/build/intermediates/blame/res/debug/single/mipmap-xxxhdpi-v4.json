@@ -2,5 +2,9 @@
     {
         "merged": "C:\\Users\\Phil Robertson\\AndroidStudioProjects\\xyzreader\\XYZReader\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\ic_launcher.png",
         "source": "C:\\Users\\Phil Robertson\\AndroidStudioProjects\\xyzreader\\XYZReader\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Phil Robertson\\AndroidStudioProjects\\xyzreader\\XYZReader\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\toolbar_image.png",
+        "source": "C:\\Users\\Phil Robertson\\AndroidStudioProjects\\xyzreader\\XYZReader\\src\\main\\res\\mipmap-xxxhdpi\\toolbar_image.png"
     }
 ]

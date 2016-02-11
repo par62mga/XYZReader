@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <bool name="detail_is_card">true</bool>
-    <dimen name="detail_card_top_margin">256dp</dimen>
-    <dimen name="detail_photo_height">600dp</dimen>
+    <dimen name="detail_card_max_width">688dp</dimen>
+    <dimen name="detail_card_top_margin">416dp</dimen>
+    <dimen name="detail_photo_height">416dp</dimen>
+    <dimen name="list_side_margin">48dp</dimen>
+    <dimen name="list_toolbar_side_margin">160dp</dimen>
+    <integer name="list_column_count">3</integer>
 </resources>

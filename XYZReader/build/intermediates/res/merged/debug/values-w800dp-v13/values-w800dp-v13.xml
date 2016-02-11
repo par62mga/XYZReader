@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="detail_card_max_width">704dp</dimen>
-    <dimen name="list_side_margin">64dp</dimen>
-    <dimen name="list_toolbar_side_margin">52dp</dimen>
+    <dimen name="detail_card_max_width">720dp</dimen>
+    <dimen name="detail_card_top_margin">640dp</dimen>
+    <dimen name="detail_photo_height">640dp</dimen>
+    <dimen name="list_side_margin">48dp</dimen>
+    <dimen name="list_thumbnail_size">192dp</dimen>
+    <dimen name="list_toolbar_side_margin">96dp</dimen>
+    <dimen name="page_margin">6dp</dimen>
+    <item format="float" name="detail_body_line_spacing_multiplier" type="fraction">1.4</item>
     <integer name="list_column_count">3</integer>
 </resources>

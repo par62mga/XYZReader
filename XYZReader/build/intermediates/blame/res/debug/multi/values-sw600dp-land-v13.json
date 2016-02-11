@@ -7,17 +7,17 @@
                     "startLine": 2,
                     "startColumn": 4,
                     "startOffset": 55,
-                    "endColumn": 43,
-                    "endOffset": 94
+                    "endColumn": 53,
+                    "endOffset": 104
                 },
                 "from": {
-                    "file": "C:\\Users\\Phil Robertson\\AndroidStudioProjects\\xyzreader\\XYZReader\\src\\main\\res\\values-sw600dp-land\\macro_layout.xml",
+                    "file": "C:\\Users\\Phil Robertson\\AndroidStudioProjects\\xyzreader\\XYZReader\\src\\main\\res\\values-sw600dp-land\\dimens.xml",
                     "position": {
-                        "startLine": 2,
+                        "startLine": 11,
                         "startColumn": 4,
-                        "startOffset": 36,
-                        "endColumn": 43,
-                        "endOffset": 75
+                        "startOffset": 319,
+                        "endColumn": 53,
+                        "endOffset": 368
                     }
                 }
             },
@@ -25,38 +25,67 @@
                 "to": {
                     "startLine": 3,
                     "startColumn": 4,
-                    "startOffset": 99,
+                    "startOffset": 109,
                     "endColumn": 54,
-                    "endOffset": 149
+                    "endOffset": 159
                 },
                 "from": {
-                    "file": "C:\\Users\\Phil Robertson\\AndroidStudioProjects\\xyzreader\\XYZReader\\src\\main\\res\\values-sw600dp-land\\macro_layout.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 133,
-                        "endColumn": 54,
-                        "endOffset": 183
-                    }
+                    "file": "C:\\Users\\Phil Robertson\\AndroidStudioProjects\\xyzreader\\XYZReader\\src\\main\\res\\values-sw600dp-land\\dimens.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 4,
                     "startColumn": 4,
-                    "startOffset": 154,
+                    "startOffset": 164,
                     "endColumn": 51,
-                    "endOffset": 201
+                    "endOffset": 211
                 },
                 "from": {
-                    "file": "C:\\Users\\Phil Robertson\\AndroidStudioProjects\\xyzreader\\XYZReader\\src\\main\\res\\values-sw600dp-land\\macro_layout.xml",
+                    "file": "C:\\Users\\Phil Robertson\\AndroidStudioProjects\\xyzreader\\XYZReader\\src\\main\\res\\values-sw600dp-land\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 216,
+                    "endColumn": 47,
+                    "endOffset": 259
+                },
+                "from": {
+                    "file": "C:\\Users\\Phil Robertson\\AndroidStudioProjects\\xyzreader\\XYZReader\\src\\main\\res\\values-sw600dp-land\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 264,
+                    "endColumn": 56,
+                    "endOffset": 316
+                },
+                "from": {
+                    "file": "C:\\Users\\Phil Robertson\\AndroidStudioProjects\\xyzreader\\XYZReader\\src\\main\\res\\values-sw600dp-land\\dimens.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 81,
-                        "endColumn": 51,
-                        "endOffset": 128
+                        "startOffset": 85,
+                        "endColumn": 56,
+                        "endOffset": 137
                     }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 321,
+                    "endColumn": 49,
+                    "endOffset": 366
+                },
+                "from": {
+                    "file": "C:\\Users\\Phil Robertson\\AndroidStudioProjects\\xyzreader\\XYZReader\\src\\main\\res\\values-sw600dp-land\\dimens.xml"
                 }
             }
         ]

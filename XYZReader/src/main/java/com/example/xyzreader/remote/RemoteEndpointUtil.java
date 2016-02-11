@@ -2,8 +2,6 @@ package com.example.xyzreader.remote;
 
 import android.util.Log;
 
-import com.squareup.okhttp.OkHttpClient;
-
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONTokener;
@@ -52,8 +50,10 @@ public class RemoteEndpointUtil {
         InputStream in = null;
 
         try {
-            OkHttpClient client = new OkHttpClient();
-            HttpURLConnection conn = client.open(url);
+            //OkHttpClient client = new OkHttpClient();
+            //HttpURLConnection conn = new client.open(url);
+            HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+
             ByteArrayOutputStream out = new ByteArrayOutputStream();
             in = conn.getInputStream();
             byte[] buffer = new byte[1024];

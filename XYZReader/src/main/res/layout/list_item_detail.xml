@@ -1,0 +1,42 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+        <com.example.xyzreader.ui.DynamicHeightNetworkImageView
+            android:id="@+id/thumbnail"
+            android:layout_width="@dimen/list_thumbnail_size"
+            android:layout_height="@dimen/list_thumbnail_size"
+			android:layout_gravity="center_horizontal"
+            android:background="@color/photo_placeholder"
+            android:contentDescription="@string/image_content"
+            android:transitionName="@string/image_transition"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/article_title"
+            style="@style/Text.CardTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8dp"
+            android:paddingTop="4dp"
+            android:paddingRight="8dp"
+            android:paddingBottom="4dp"
+            android:ellipsize="end"
+            android:maxLines="4"
+            android:layout_below="@+id/thumbnail" />
+
+        <TextView
+            android:id="@+id/article_subtitle"
+            style="@style/Text.CardSubtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingBottom="4dp"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:layout_below="@+id/article_title"/>
+			
+    </RelativeLayout>

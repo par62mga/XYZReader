@@ -1,0 +1,19 @@
+<resources>
+    <!-- list -->
+    <integer name="list_column_count">3</integer>
+
+    <dimen name="list_toolbar_side_margin">96dp</dimen>
+    <dimen name="list_side_margin">48dp</dimen>
+
+    <dimen name="list_thumbnail_size">192dp</dimen>
+
+    <!-- detail -->
+    <dimen name="detail_photo_height">640dp</dimen>
+
+    <dimen name="detail_card_top_margin">640dp</dimen>
+    <dimen name="detail_card_max_width">720dp</dimen>
+
+    <item name="detail_body_line_spacing_multiplier" format="float" type="fraction">1.4</item>
+
+    <dimen name="page_margin">6dp</dimen>
+</resources>

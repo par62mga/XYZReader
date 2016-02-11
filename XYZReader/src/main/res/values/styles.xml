@@ -17,12 +17,55 @@
 
 <resources>
 
-    <style name="Theme.Bacon" parent="@style/Theme.AppCompat.Light.NoActionBar">
-
+    <style name="Theme.XYZReader" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/theme_primary</item>
+        <item name="colorPrimaryDark">@color/theme_primary_dark</item>
+        <item name="colorAccent">@color/theme_accent</item>
+        <item name="toolbarStyle">@style/Toolbar</item>
     </style>
 
-    <style name="Theme.Bacon.Detail">
+    <!-- detail activity style, removed the below as it did not seem to do anything -->
+    <!-- item name="android:statusBarColor">@android:color/transparent -->
+    <style name="Theme.XYZReader.Detail" parent="@style/Theme.XYZReader">
         <item name="android:statusBarColor">@android:color/transparent</item>
     </style>
+
+    <!-- main activity appbar style -->
+    <style name="Appbar" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+    </style>
+
+    <!-- main activity toolbar style -->
+    <style name="Toolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="android:background">@drawable/toolbar_background</item>
+        <item name="popupTheme">@style/Theme.AppCompat.Light</item>
+    </style>
+
+    <style name="Text.ArticleTitle" parent="TextAppearance.AppCompat.Headline">
+        <item name="android:textColor">@color/text_white</item>
+        <item name="android:textSize">@dimen/detail_title_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text.ArticleByline" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:textColor">@color/text_light</item>
+        <item name="android:textSize">@dimen/detail_byline_text_size</item>
+    </style>
+
+    <style name="Text.ArticleBody" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:textSize">@dimen/detail_body_text_size</item>
+    </style>
+
+    <style name="Text.CardTitle" parent="TextAppearance.AppCompat.Body2">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">@dimen/card_title_text_size</item>
+    </style>
+
+    <style name="Text.CardSubtitle" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:textSize">@dimen/card_subtitle_text_size</item>
+    </style>
+
+
 
 </resources>

@@ -1,0 +1,15 @@
+<resources>
+    <!-- list -->
+    <integer name="list_column_count">3</integer>
+
+    <dimen name="list_toolbar_side_margin">160dp</dimen>
+    <dimen name="list_side_margin">48dp</dimen>
+
+    <!-- detail -->
+    <dimen name="detail_photo_height">416dp</dimen>
+
+    <dimen name="detail_card_top_margin">416dp</dimen>
+    <dimen name="detail_card_max_width">688dp</dimen>
+
+
+</resources>
