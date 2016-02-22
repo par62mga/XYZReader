@@ -41,6 +41,8 @@ import java.util.Map;
  * handset and tablet-size devices. On handsets, the activity presents a list of items, which when
  * touched, lead to a {@link ArticleDetailActivity} representing item details. On tablets, the
  * activity presents a grid of items as cards.
+ *
+ * Changed ActionBarActivity to AppCompatActivity to support AppCompat theme
  */
 public class ArticleListActivity extends AppCompatActivity implements
         LoaderManager.LoaderCallbacks<Cursor> {

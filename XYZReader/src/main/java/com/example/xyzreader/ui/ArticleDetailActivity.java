@@ -32,6 +32,8 @@ import java.util.Map;
 
 /**
  * An activity representing a single Article detail screen, letting you swipe between articles.
+ *
+ * Changed ActionBarActivity to AppCompatActivity to support AppCompat theme
  */
 public class ArticleDetailActivity extends AppCompatActivity
         implements LoaderManager.LoaderCallbacks<Cursor> {
