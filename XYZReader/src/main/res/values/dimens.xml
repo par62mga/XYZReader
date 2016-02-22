@@ -15,6 +15,7 @@
     <dimen name="card_elevation">2dp</dimen>
     <dimen name="card_press_translation_z">8dp</dimen>
     <dimen name="card_radius">4dp</dimen>
+    <dimen name="card_margin">4dp</dimen>
 
     <dimen name="card_title_text_size">14sp</dimen>
     <dimen name="card_subtitle_text_size">12sp</dimen>
@@ -22,12 +23,15 @@
     <!-- detail -->
     <bool name="detail_is_card">false</bool>
 
+    <dimen name="detail_appbar_width">56dp</dimen>
+
     <dimen name="detail_title_text_size">24sp</dimen>
     <dimen name="detail_byline_text_size">12sp</dimen>
     <dimen name="detail_body_text_size">14sp</dimen>
     <dimen name="detail_scroll_up_value">128dp</dimen>
 
     <dimen name="detail_photo_height">464dp</dimen>
+    <dimen name="detail_background_height">112dp</dimen>
     <dimen name="detail_title_bottom_padding">8dp</dimen>
     <dimen name="detail_metabar_vert_padding">8dp</dimen>
 
@@ -38,11 +42,17 @@
     <dimen name="detail_body_top_margin">16dp</dimen>
     <dimen name="detail_body_bottom_margin">72dp</dimen>
 
+    <dimen name="detail_item_top_padding">4dp</dimen>
+    <dimen name="detail_item_bottom_padding">4dp</dimen>
+    <dimen name="detail_item_left_padding">8dp</dimen>
+    <dimen name="detail_item_right_padding">8dp</dimen>
+
     <item name="detail_body_line_spacing_multiplier" format="float" type="fraction">1.2</item>
 
     <dimen name="fab_elevation">6dp</dimen>
     <dimen name="fab_press_translation_z">12dp</dimen>
     <dimen name="fab_margin">24dp</dimen>
+    <dimen name="fab_size">56dp</dimen>
 
     <dimen name="page_margin">2dp</dimen>
 

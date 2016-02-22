@@ -17,9 +17,9 @@
         android:layout_toRightOf="@+id/thumbnail"
         android:layout_toEndOf="@+id/thumbnail"
         android:orientation="vertical"
-        android:paddingLeft="8dp"
-        android:paddingTop="4dp"
-        android:paddingRight="8dp"
+        android:paddingLeft="@dimen/detail_item_left_padding"
+        android:paddingTop="@dimen/detail_item_top_padding"
+        android:paddingRight="@dimen/detail_item_right_padding"
         android:layout_centerVertical="true">
 
         <TextView

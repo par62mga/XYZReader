@@ -44,7 +44,7 @@
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:minHeight="112dp"
+                    android:minHeight="@dimen/detail_background_height"
                     android:background="@drawable/photo_background_protection" />
 
             </FrameLayout>
@@ -100,8 +100,8 @@
         android:layout_gravity="bottom|end"
         android:layout_marginRight="@dimen/fab_margin"
         android:layout_marginBottom="@dimen/fab_margin"
-        android:layout_width="56dp"
-        android:layout_height="56dp"
+        android:layout_width="@dimen/fab_size"
+        android:layout_height="@dimen/fab_size"
         android:src="@drawable/ic_share"
         android:elevation="@dimen/fab_elevation"
         android:contentDescription="@string/action_share" />

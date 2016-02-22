@@ -213,6 +213,7 @@
     <dimen name="appbar_elevation">4dp</dimen>
     <dimen name="appbar_height">96dp</dimen>
     <dimen name="card_elevation">2dp</dimen>
+    <dimen name="card_margin">4dp</dimen>
     <dimen name="card_press_translation_z">8dp</dimen>
     <dimen name="card_radius">4dp</dimen>
     <dimen name="card_subtitle_text_size">12sp</dimen>
@@ -248,6 +249,8 @@
     <dimen name="design_tab_scrollable_min_width">72dp</dimen>
     <dimen name="design_tab_text_size">14sp</dimen>
     <dimen name="design_tab_text_size_2line">12sp</dimen>
+    <dimen name="detail_appbar_width">56dp</dimen>
+    <dimen name="detail_background_height">112dp</dimen>
     <dimen name="detail_body_bottom_margin">72dp</dimen>
     <dimen name="detail_body_text_size">14sp</dimen>
     <dimen name="detail_body_top_margin">16dp</dimen>
@@ -255,6 +258,10 @@
     <dimen name="detail_card_max_width">10000dp</dimen>
     <dimen name="detail_card_top_margin">464dp</dimen>
     <dimen name="detail_inner_horiz_margin">16dp</dimen>
+    <dimen name="detail_item_bottom_padding">4dp</dimen>
+    <dimen name="detail_item_left_padding">8dp</dimen>
+    <dimen name="detail_item_right_padding">8dp</dimen>
+    <dimen name="detail_item_top_padding">4dp</dimen>
     <dimen name="detail_metabar_vert_padding">8dp</dimen>
     <dimen name="detail_photo_height">464dp</dimen>
     <dimen name="detail_scroll_up_value">128dp</dimen>
@@ -265,6 +272,7 @@
     <dimen name="fab_elevation">6dp</dimen>
     <dimen name="fab_margin">24dp</dimen>
     <dimen name="fab_press_translation_z">12dp</dimen>
+    <dimen name="fab_size">56dp</dimen>
     <item format="float" name="highlight_alpha_material_colored" type="dimen">0.26</item>
     <item format="float" name="highlight_alpha_material_dark" type="dimen">0.20</item>
     <item format="float" name="highlight_alpha_material_light" type="dimen">0.12</item>

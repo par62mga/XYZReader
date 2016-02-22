@@ -14,7 +14,7 @@ The project was to take the user feedback in the UI Review node, and implement c
 	
 - App uses CoordinatorLayout for the main activity.**See activity-article-list.xml and ArticleListActivity.java**
 
-- App theme extends from AppCompat. **See AndroidManifest.xml and styles.xml** 
+- App theme extends from AppCompat. **See AndroidManifest.xml, styles.xml, ArticleListActivity.jaga and ArticleDetailActivity.java**
 
 - App uses an app bar and associated toolbars. **See activity-article-list.xml and ArticleListActivity.java**
 
@@ -40,3 +40,4 @@ The project was to take the user feedback in the UI Review node, and implement c
 
 [http://stackoverflow.com/questions/27304834/viewpager-fragments-shared-element-transitions/27321077#27321077](http://stackoverflow.com/questions/27304834/viewpager-fragments-shared-element-transitions/27321077#27321077 "ViewPager Fragments - Shared Element Transitions")
 
+- Used Sunshine as a reference to help develop the CoordinatorLayout and to also update Toolbar elevation independently of the recycler view
